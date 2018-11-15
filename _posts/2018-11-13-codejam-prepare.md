@@ -18,7 +18,9 @@ categories: code jam
   + quick sort
     + 复杂度: O(nlogn)
     + 最好情况是二分法;最差情况是选择排序了;
-
+  + heap sort
+    + 复杂度: O(nlogn)
+    + 
 + 非比较排序
   + 
     
