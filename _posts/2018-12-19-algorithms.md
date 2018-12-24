@@ -25,8 +25,8 @@ three features:
 + iterable collection
 
 ---
->algorithm1.1
->Pushdown stack: using interface
+algorithm1.1
+Pushdown stack: using interface
 
 ---
 Linked lists: a new data structure  
@@ -38,6 +38,8 @@ data structures:
 Mathematical model
 + Tilde approximations
 + Approximate running time
+  + doubling test
+  + doubling ratio test
 + cost model
 
 ---
@@ -52,7 +54,33 @@ Order-of-growth classifications
 
 ---
 Designing faster algorithm
++ 2-sum
+  + brute-force: N^2
+  + fast: N\*logN
+	mergesort + binary search  
+	mergesort: N\*logN  
+	binary search: logN
++ 3-sum
+  + brute-force: N^3
+  + fast: N^2*logN
+	merge sort: N * logN
+	binary search: N(N-1)/2 * logN
 
+---
+Coping with dependence on inputs
++ input models
++ worst-case performance guarantees
++ randomized-algorithms
+  + quick sort: linear to quadratic
++ amortized analysis
 
+---
+Memory
++ primitive
++ objects
++ references
++ linked lists
++ arrays
++ strings
 
 
