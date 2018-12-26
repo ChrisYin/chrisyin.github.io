@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "learning algorithms and data type"
+title:  "Algorithms-Chapter One"
 date:   2018-12-19
 categories: algorithms
 ---
@@ -83,4 +83,31 @@ Memory
 + arrays
 + strings
 
+## Case Study: Union-Find
 
+---
+Dynamic connectivity
++ symmetric
++ transitive
++ reflexive
+
+---
+Union-Find API
+
+>public class UF
+>void union()
+>int find()
+>boolean connected()
+>int count()
+
+---
+Implementations & analysis
+
+Cost model: array accesses of union function
+
++ Quick-find
+  2 + N + [1, N-1] = [N+3, 2N+1]
++ Quick union
+  2* (2 * depth + 1) + 1
++ Weighted quick union
+  depth <= logN
