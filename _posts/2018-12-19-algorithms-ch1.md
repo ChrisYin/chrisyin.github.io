@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Algorithms-Chapter One"
+title:  "Algorithms-Chapter One: Fundamentals"
 date:   2018-12-19
 categories: algorithms
 ---
@@ -25,8 +25,8 @@ three features:
 + iterable collection
 
 ---
-algorithm1.1
-Pushdown stack: using interface
+algorithm1.1  
+Pushdown stack: using interface  
 
 ---
 Linked lists: a new data structure  
@@ -56,15 +56,15 @@ Order-of-growth classifications
 Designing faster algorithm
 + 2-sum
   + brute-force: N^2
-  + fast: N\*logN
+  + fast: N\*logN  
 	mergesort + binary search  
 	mergesort: N\*logN  
-	binary search: logN
+	binary search: logN  
 + 3-sum
   + brute-force: N^3
-  + fast: N^2*logN
-	merge sort: N * logN
-	binary search: N(N-1)/2 * logN
+  + fast: N^2*logN  
+	merge sort: N * logN  
+	binary search: N(N-1)/2 * logN  
 
 ---
 Coping with dependence on inputs
@@ -94,20 +94,20 @@ Dynamic connectivity
 ---
 Union-Find API
 
->public class UF
->void union()
->int find()
->boolean connected()
->int count()
+>public class UF  
+>void union()  
+>int find()  
+>boolean connected()  
+>int count()  
 
 ---
 Implementations & analysis
 
 Cost model: array accesses of union function
 
-+ Quick-find
++ Quick-find  
   2 + N + [1, N-1] = [N+3, 2N+1]
-+ Quick union
++ Quick union  
   2* (2 * depth + 1) + 1
-+ Weighted quick union
++ Weighted quick union  
   depth <= logN
