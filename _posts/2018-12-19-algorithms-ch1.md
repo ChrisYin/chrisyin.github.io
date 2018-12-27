@@ -105,9 +105,16 @@ Implementations & analysis
 
 Cost model: array accesses of union function
 
-+ Quick-find  
-  2 + N + [1, N-1] = [N+3, 2N+1]
-+ Quick union  
-  2* (2 * depth + 1) + 1
++ Quick-find[much too slow]  
+  2 + N + [1, N-1] = [N+3, 2N+1]  
+  running time for M ops: ~M*N  
++ Quick union[too slow]  
+  array access: 2* (2 * depth + 1) + 1  
+  running time for M ops: ~M*N
 + Weighted quick union  
-  depth <= logN
+  depth <= logN  
+  running time for M ops: N+M*logN
++ QU + path compression  
+  running time for M ops: N+M*logN
++ Weighted QU + path compression  
+  running time for M ops: N+M*log\*N
