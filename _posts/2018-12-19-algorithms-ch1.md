@@ -118,3 +118,14 @@ Cost model: array accesses of union function
   running time for M ops: N+M*logN
 + Weighted QU + path compression  
   running time for M ops: N+M*log\*N
+
+---
+Exercise:
+
+1. code style: method and variable using little camel-case
+
+2. memory
+   focus one loop at a time. Please not creat full array.
+
+3. performance:
+   better no loop in method.
