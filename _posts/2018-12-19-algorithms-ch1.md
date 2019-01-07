@@ -15,14 +15,22 @@ categories: algorithms
 three data *types/structures*:
 + bags
 + FIFO queue
+  using linked-list or array to implement queue  
 + LIFO stack
-  evaluation example
+  using linked-list or array to implement stack  
+  resizing-array implementation  
+	  + grow: double size
+	  + shrink: one-quarter shrink
+
+evaluation example
 
 ---
 three features:
 + generics
+  problem: array covariant.
 + autoboxing
 + iterable collection
+  + API: hasNext() next()
 
 ---
 algorithm1.1  
