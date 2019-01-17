@@ -42,15 +42,17 @@ rearrange the array to give it the property that taking every hth entry.
 ---
 abstract in-place merge
 
-+ in-place : using aux array  
++ in-place : *using aux array*  
 	
 ---
 top-down mergesort/bottom-up mergesort
 
-Complexivity: MergeSort uses at most NlgN compares and 6NlgN array accesses  
-Proof: using upper bound lower bound formula
++ Complexivity: MergeSort uses at most NlgN compares and 6NlgN array accesses  
+	+ Proof: using upper bound lower bound formula
 
-Memory: Mergesort uses extra memory proportional to N.
++ Memory: Mergesort uses extra memory proportional to N.
+
++ Mergesort is optimal wrt number compares, but is not optimal wrt space.
 
 ---
 improvements:
@@ -64,6 +66,13 @@ the complexity of sorting
 
 + compare-based sorting algorithms:  ~NlgN(lgN!)  
 + Nergesort is an asymptotically optimal compare-based sorting algorithm  
+
+
+---
+stability:
+
++ def: a stable sort preserves the relative order of items with equal keys
++ insertion sort and mergesort are stable.
 
 # Quicksort
 
