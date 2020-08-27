@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: ChrisYin's Blog
 subtitle: ''
-description: ''
+description: 'Personal Blog for Recording Sth. Important'
 keywords:
-author: John Doe
+author: Chris Yin
 language: en
-timezone: ''
+timezone: ""
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -103,4 +103,7 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: git@github.com:ChrisYin/chrisyin.github.io.git # https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io
+  branch: master
+  message: "Updated at [{{ now('YYYY-MM-DD HH:mm:ss') }}]"
