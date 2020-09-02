@@ -33,3 +33,30 @@ The newest problem I fix it today is outmoded stack after the elimination of sta
 In this pass, three instrucions of handling stack are being to eliminate, which will change the stack size of its function.
 
 The problem is that it does't update the stack size accordingly in the pass.
+
+# 2020-09-02 Wednesday
+
+Today I finished the first phase of establishing complete assembler of CompcertELF, which can successfully compile almost all 
+testcases except some special examples, such as those with unimportant features.
+
+## Alignment Examples
+
+In order to align 16 byte double-type data, I change the minial alignment size from 8 bytes to 16 bytes, which will promise 
+the 16-byte alignment of all global definitons.
+
+In the meantime, any alignment under 16-byte is impossible to get, and this is the reason why the alignment example can not be
+passed.
+
+## Inline-Asm Example
+
+Since it is a little complex to realize the inline-asm compilation(probably do it later), we omit the example.
+
+## Floating Point Example
+
+The reason why it is time-consuming to compile this example needs to be found in the future.
+
+Now we just ignore the nugatory example.
+
+I will start phase two (finish the constructure of the proofs) on Tomorrow.
+
+
