@@ -59,4 +59,13 @@ Now we just ignore the nugatory example.
 
 I will start phase two (finish the constructure of the proofs) on Tomorrow.
 
+# 2020-09-21 Monday
+
+Today I begin to build the complete prove structure of CompcertELF.
+
+My job can be divided into two parts: to finish the proofs of the new passes added by me and to modify the proofs of the old passes which has been changed.
+
+## Step 1
+
+Finish top level proofs in the "Compiler.v".
 
