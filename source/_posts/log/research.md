@@ -69,3 +69,16 @@ My job can be divided into two parts: to finish the proofs of the new passes add
 
 Finish top level proofs in the "Compiler.v".
 
+# 2020-09-22 Tuesday
+
+Today I continue to finish the proofs in "Compiler.v". 
+
+Changes:
++ merge new things in reloctable/Compiler.v: delete byte' things
++ add match_prog & transf_program_match & Linking.TransfLink match_prog for all new passes
++ delte semantics of new instructions added by me several weeks ago
++ delte feature of updating stack size of function[do it in realasm gen]
+
+Tomorrow, I will continue to finish proofs in Compiler.v 
+This work can be finshed in Tomorrow.
+
