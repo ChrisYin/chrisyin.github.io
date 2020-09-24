@@ -82,3 +82,17 @@ Changes:
 Tomorrow, I will continue to finish proofs in Compiler.v 
 This work can be finshed in Tomorrow.
 
+# 2020-09-24 Thursday
+
+## Software Foundation
+
+Today I mainly works on adcanced exercises in Software Foundation.
+
+I finished a five star exercise: the prove of conversion functions bwtween bin and nat.
+
+Several lemmas must be stated first, so it needs a whole picture of how to finishing these proofs.
+
+## CComp Prj
+
++ Need to find out why need bss section?
++ How to prove symbol table gen?
