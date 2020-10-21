@@ -96,3 +96,12 @@ Several lemmas must be stated first, so it needs a whole picture of how to finis
 
 + Need to find out why need bss section?
 + How to prove symbol table gen?
+
+# 2020-10-13 Sunday
+
+## Paper Reading 
+
++ CISC x86 model in Sail: encode and decode
+  It implemented a Decode function, not a mapping pattern.
++ ARMv8.5 model in Coq
++ RISC-V 64 bit instruction: li psedu instructions
