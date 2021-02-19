@@ -150,3 +150,9 @@ Prerequiste:
 Today, I keep reading the book "Linkers and Loaders".
 
 I'm thinking that the linker script problem I've met before: the overlaping of stack and data.
+
+# 2021-02-19 Friday
+
+I come back to Shanghai aimming to OOPSLA.
+
+New updates will be posted in my github repo at SJTU-PLV.
