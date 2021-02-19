@@ -105,3 +105,48 @@ Several lemmas must be stated first, so it needs a whole picture of how to finis
   It implemented a Decode function, not a mapping pattern.
 + ARMv8.5 model in Coq
 + RISC-V 64 bit instruction: li psedu instructions
+
+# 2020-11-01 Saturday
+
+Today, I'm going to give a short picture of my next research: Sail and CompcertELF.
+
+Goal: add sail arm machine model into Compcert
+
+Prerequiste:
+
++ Verified CompcertELF with aarch64 backend
+  + port Compcert to 3.7: aarch64  [first thing to do]
+  + port x86 Assembler to ARM
+
++ Suitable Sail ARM64 Model
+
+## Add SACC and CCELF into stack-no-perm
+
++ Rawasm and realasm
+
+# 2020-11-12 Thursday
+
+## Reports
+
+1. introduction of compilation passes: old passes and new passes
+   + Builtin Functions
+2. unfinished proofs: what/why/how?
+3. how to port to 3.7 problems
+
+## Sail
+
++ which kind of formal semantics is suitable for compcert? 
+  + exception
+  + small step 
+
++ write a new back end of sail?
+
++ fine-grained instruction
+  + group of instructions
+
+
+# 2020-11-24 Tuesday
+
+Today, I keep reading the book "Linkers and Loaders".
+
+I'm thinking that the linker script problem I've met before: the overlaping of stack and data.
